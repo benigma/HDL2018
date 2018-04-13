@@ -1,0 +1,288 @@
+/* iPad */
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: landscape) {
+    header nav .menu ul li a {
+        font-size: 0.625em;
+    }
+    header nav .menu ul li:hover > ul.children {
+        flex-wrap: nowrap;
+    }
+    section#area-carousel {
+        width: 100%;
+        height: 100%;
+    }
+    section#area-carousel .ca-container {
+        position: relative;
+        margin: 40px auto;
+        width: 100%;
+        height: 550px;
+    }
+    section#area-carousel .ca-item {
+        position: relative;
+        float: left;
+        width: 48.5714286%;
+        height: 100%;
+        text-align: center;
+    }
+    section#area-carousel .ca-icon {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin: 10px auto;
+        border: 2px solid $highlight-color;
+    }
+}
+/* iPhone 6 and Up */
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px), (min-width : 335px) and (max-width : 667px) {
+
+    header {
+        display: none;
+    }
+
+    header.nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+        justify-content: space-between;
+        align-items: center;
+
+        & img {
+            width: 200px;
+            height: auto;
+        }
+
+        & .mobile-menu-icon {
+            width: 30px;
+            height: 30px;
+            display: block;
+            background: url("../img/svg/001-menu.svg") no-repeat center;
+            -webkit-filter: invert(100%);
+            filter: invert(100%);
+        }
+    }
+    #mobile-primary-menu.is-open {
+        display: flex !important;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+        padding: 48px auto;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        background: $primary-color;
+        animation: menu 0.125s ease-in 0s forwards;
+
+        & .close-btn {
+            width: 24px;
+            height: 24px;
+            background: url(../img/svg/002-close.svg) no-repeat center;
+            -webkit-filter: invert(100%);
+            position: absolute;
+            top: 32px;
+            right: 32px;
+        }
+        & ul {
+            margin: 0px;
+            opacity: 0;
+            animation: fadeIn 0.25s ease-in 0.25s forwards;
+            list-style: none;
+
+            & li {
+                padding: 16px 0px;
+                margin: 0px;
+
+                & a {
+                    text-align: center;
+                    color: #FFF;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+    .owl-carousel {
+        & .item {
+            & h1 {
+                font-size: 2em;
+                width: 75%;
+                margin: 0 12.5%;
+                text-align: center;
+            }
+            & h4 {
+                font-size: 0.825em;
+                width: 75%;
+                margin: 16px 12.5% 0px;
+            }
+        }
+    }
+    button.owl-next, button.owl-prev {
+        width: 24px;
+    }
+    .banner {
+        padding: 0 5%;
+
+        & h1 {
+            font-size: 2em;
+        }
+        & h4 {
+            font-size: 0.825em;
+        }
+    }
+
+    .home--content-area {
+        width: 100%;
+        padding: 0 5%;
+
+        & .home-columns {
+            flex-direction: column;
+
+            & .col-1 {
+                width: 100%;
+                margin-right: 0px;
+            }
+            & .col-2 {
+                width: 100%;
+                margin-left: 0px;
+            }
+        }
+    }
+
+    .carousel-margin {
+        margin-top: -64px;
+    }
+
+    .child--content-area {
+        flex-direction: column;
+
+        & .side--navigation {
+            width: 100%;
+            max-width: 100%;
+            order: 2;
+        }
+        & .child--content {
+            width: 100%;
+            order: 1;
+            padding: 24px;
+        }
+    }
+
+    .staff-banner {
+        padding-top: 1em;
+        height: auto;
+        justify-content: center;
+
+        & img {
+            margin-top: 1em;
+        }
+    }
+    .staff-profile {
+        flex-direction: column;
+
+        & .staff-profile--content {
+            width: 100%;
+        }
+        & .staff-profile--experience {
+            width: 100%;
+            margin-left: 0px;
+        }
+    }
+
+    .team--search {
+        padding: 1em 5%;
+
+        & input[type="text"] {
+            margin-right: 0px;
+            margin-bottom: 1em;
+            width: 100%;
+        }
+        & select {
+            width: 100%;
+            margin-right: 0px;
+            margin-bottom: 1em;
+        }
+        & input[type="submit"] {
+            width: 100%;
+            -webkit-appearance: none;
+        }
+    }
+
+    .ca-container {
+        position:relative;
+        margin: 1em auto;
+        width: 100%;
+        height:500px;
+    }
+
+    .ca-wrapper {
+        width:100%;
+        height:100%;
+        position:relative;
+    }
+
+    .ca-item {
+        position:relative;
+        float:none;
+        width:90%;
+        height:auto;
+        text-align:center;
+    }
+
+    .ca-item-main {
+        padding: 15px 0;
+        position:absolute;
+        top:5px;
+        left:40px;
+        right:5px;
+        background: transparent;
+        overflow:hidden;
+    }
+
+    .ca-icon {
+        width: 100%;
+        height: auto;
+        position:relative;
+        margin: 10px auto;
+        border: none;
+    }
+
+    .ca-icon img {
+        width: 100%;
+        height: auto;
+        border: 2px solid $highlight-color;
+    }
+
+   .ca-nav span {
+       width:25px;
+       height:38px;
+       background: transparent url("../img/arrows.png") no-repeat top left;
+       position:absolute;
+       top:50%;
+       margin-top:-19px;
+       left:0px;
+       text-indent:-9000px;
+       opacity:0.7;
+       cursor:pointer;
+       z-index:100;
+   }
+
+   .ca-nav span.ca-nav-next {
+       background-position:top right;
+       left:auto;
+       right:0px;
+   }
+
+   .ca-nav span:hover {
+       opacity:1.0;
+   }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+
+        & .logo {
+            margin-top: 1em;
+        }
+    }
+
+}
