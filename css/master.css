@@ -96,7 +96,8 @@ header nav {
           top: 100px;
           display: flex;
           flex-wrap: wrap;
-          justify-content: flex-end; }
+          justify-content: flex-end;
+          z-index: 2500; }
           header nav .menu ul li:hover > ul.children li {
             height: 64px;
             max-height: 64px;
@@ -323,7 +324,7 @@ footer {
     font-size: 4em;
     text-transform: uppercase;
     line-height: 1;
-    max-width: 800px; }
+    width: 90%; }
     .owl-carousel .item h1 a {
       color: white;
       text-decoration: none;

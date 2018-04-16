@@ -1,7 +1,7 @@
 <footer>
     <div class="footer-content">
-        <p>&copy; 1995 - <?php echo date('Y'); ?> HDL Executive Search LLP / Company Number: OC350666</p>
         <p><a href="<?php echo site_url(); ?>/offices">Contact Us</a> / <a href="<?php echo site_url(); ?>/disclaimer">Disclaimer</a></p>
+        <p>&copy; 1995 - <?php echo date('Y'); ?> HDL Executive Search LLP / Company Number: OC350666</p>
     </div>
     <div class="logo"><a href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/hdl_logo_small.png" alt="Hogarth Davis Lloyd" /></a></div>
 </footer>

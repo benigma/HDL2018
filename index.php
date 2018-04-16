@@ -25,7 +25,6 @@
 
     <div class="home--content-area carousel-margin">
         <h1>Executive Search</h1>
-        <h3>I would recomend a small, snappy introductory sentence that captures either the philosophy of the firm or says in a nutshell what you do, we would style it like this.</h3>
         
         <div class="home-columns">
             <div class="col-1">

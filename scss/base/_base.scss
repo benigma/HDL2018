@@ -106,6 +106,7 @@ header nav {
                         display: flex;
                         flex-wrap: wrap;
                         justify-content: flex-end;
+                        z-index: 2500;
 
                         & li {
                             height: 64px;  
