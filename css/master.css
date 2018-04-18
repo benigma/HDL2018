@@ -729,20 +729,29 @@ section#carousel {
           text-decoration: none;
           text-transform: uppercase; }
 
-  .owl-carousel .item h1 {
-    font-size: 2em;
-    width: 75%;
-    margin: 0 12.5%;
-    text-align: center; }
-  .owl-carousel .item h4 {
-    font-size: 0.825em;
-    width: 75%;
-    margin: 16px 12.5% 0px; }
+  .owl-carousel .item {
+    height: 350px;
+    min-height: 350px; }
+    .owl-carousel .item h1 {
+      font-size: 2em;
+      width: 75%;
+      margin: 0 12.5%;
+      text-align: center; }
+    .owl-carousel .item h4 {
+      font-size: 0.825em;
+      width: 75%;
+      margin: 16px 12.5% 0px; }
+
+  .owl-nav {
+    top: -225px; }
 
   button.owl-next, button.owl-prev {
     width: 24px; }
 
   .banner {
+    height: 350px;
+    max-height: 350px;
+    min-height: 350px;
     padding: 0 5%; }
     .banner h1 {
       font-size: 2em; }
@@ -762,7 +771,7 @@ section#carousel {
         margin-left: 0px; }
 
   .carousel-margin {
-    margin-top: -64px; }
+    margin-top: -164px; }
 
   .child--content-area {
     flex-direction: column; }
