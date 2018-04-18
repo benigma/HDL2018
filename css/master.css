@@ -183,7 +183,8 @@ header nav {
     font-size: 2em;
     color: #8799a5;
     letter-spacing: 0;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-bottom: 1em; }
   .home--content-area h3 {
     font-weight: 500;
     font-size: 1.3125em;
@@ -200,6 +201,9 @@ header nav {
   .home--content-area .home-columns {
     display: flex;
     flex-wrap: wrap; }
+    .home--content-area .home-columns h1 {
+      width: 100%;
+      margin-bottom: 0px; }
     .home--content-area .home-columns .col-1 {
       width: calc(50% - 16px);
       margin-right: 16px; }
