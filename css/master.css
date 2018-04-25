@@ -15,6 +15,9 @@ body {
   font-size: 1em;
   line-height: 1.3125; }
 
+h1, h2, h3, h4, h5, h6, p {
+  text-align: justify; }
+
 ::-webkit-input-placeholder {
   color: white; }
 
@@ -328,7 +331,8 @@ footer {
     font-size: 4em;
     text-transform: uppercase;
     line-height: 1;
-    width: 90%; }
+    width: 90%;
+    text-align: center; }
     .owl-carousel .item h1 a {
       color: white;
       text-decoration: none;
@@ -340,7 +344,8 @@ footer {
     font-size: 1.25em;
     margin-top: 8px;
     max-width: 800px;
-    color: white; }
+    color: white;
+    text-align: center; }
 
 .owl-global {
   background: url("../img/global-markets.jpg") center no-repeat;
@@ -387,7 +392,7 @@ button.owl-next, button.owl-prev {
   display: none; }
 
 .carousel-margin {
-  margin-top: 0px; }
+  margin-top: -50px; }
 
 /* Individual Staff Pages */
 .staff-banner {
@@ -423,7 +428,8 @@ button.owl-next, button.owl-prev {
     width: 60%;
     font-weight: 300; }
     .staff-profile .staff-profile--content p {
-      margin-bottom: 1em; }
+      margin-bottom: 1em;
+      text-align: justify; }
       .staff-profile .staff-profile--content p:last-of-type {
         margin-bottom: none; }
     .staff-profile .staff-profile--content button {
@@ -514,7 +520,7 @@ section#carousel {
   font-weight: 500;
   font-style: normal;
   color: #8799a4;
-  text-align: left; }
+  text-align: justify; }
 
 .ca-item h3 a {
   text-decoration: none;
@@ -527,11 +533,11 @@ section#carousel {
   line-height: 1.5em;
   font-weight: 400;
   font-style: normal;
-  text-align: left; }
+  text-align: justify; }
 
 .ca-item p {
   font-size: 0.8125em;
-  text-align: left;
+  text-align: justify;
   color: #000; }
 
 .ca-item h4 span.ca-quote {

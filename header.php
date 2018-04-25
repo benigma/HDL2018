@@ -43,6 +43,7 @@
         <div class="logo"><a href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/hdl_logo.png" alt="Hogarth Davis Lloyd" /></a></div>
         <div class="menu">
             <ul>
+            <li><a href="<?php echo site_url(); ?>">Home</a></li>
             <li><a href="#">Practices</a>
                     <ul class="children">
                         <li><a href="<?php echo site_url(); ?>/board-level">Board Level</a></li>
