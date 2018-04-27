@@ -138,7 +138,7 @@ function get_excerpt(){
 }
 
 function change_footer_admin () {
-  echo 'Fitzrovia Digital';
+  echo 'Ben Cash';
 }  
 add_filter('admin_footer_text', 'change_footer_admin');
 
