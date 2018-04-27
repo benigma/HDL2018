@@ -26,7 +26,7 @@ Template Name: Practice Area Template
 					<li><h3>Other Areas include</h3></li>
 					<?php 
 					$idtwo = get_the_ID();
-					wp_list_pages('title_li=&depth=1&exclude='.$idtwo.',80,82&sort_column=menu_order'); ?>
+					wp_list_pages('title_li=&depth=1&exclude='.$idtwo.',80,82,392,487&sort_column=menu_order'); ?>
 				</ul>
 			</nav>
 		</div>
