@@ -1,3 +1,72 @@
+/*Half Screen */
+@media only screen and (max-width: 985px) and (min-width: 769px) {
+    header {
+        display: none;
+    }
+    header.nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+        justify-content: space-between;
+        align-items: center;
+
+        & img {
+            width: 300px;
+            height: auto;
+        }
+
+        & .mobile-menu-icon {
+            width: 30px;
+            height: 30px;
+            display: block;
+            background: url("../img/svg/001-menu.svg") no-repeat center;
+            -webkit-filter: invert(100%);
+            filter: invert(100%);
+        }
+    }
+    #mobile-primary-menu.is-open {
+        display: flex !important;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+        padding: 48px auto;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        background: $primary-color;
+        animation: menu 0.125s ease-in 0s forwards;
+
+        & .close-btn {
+            width: 24px;
+            height: 24px;
+            background: url(../img/svg/002-close.svg) no-repeat center;
+            -webkit-filter: invert(100%);
+            position: absolute;
+            top: 32px;
+            right: 32px;
+        }
+        & ul {
+            margin: 0px;
+            opacity: 0;
+            animation: fadeIn 0.25s ease-in 0.25s forwards;
+            list-style: none;
+
+            & li {
+                padding: 16px 0px;
+                margin: 0px;
+
+                & a {
+                    text-align: center;
+                    color: #FFF;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
 /* iPad */
 @media only screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: landscape) {
     header nav .menu ul li a {
